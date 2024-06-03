@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginas/main2.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SIMULADOR DE UN ALQUILER DE UN AUTO</h1>
+    <form id="formaRenta">
+        <label for="marca">Marca:</label>
+        <select id="marca" name="marca">
+            <option value="Ford">Ford</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Audi">Audi</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Peugeot">Peugeot</option>
+        </select>
+        <br>
+        <label for="tipo">Tipo de auto:</label>
+        <select id="tipo" name="tipo">
+            <option value="SUV">SUV</option>
+            <option value="Sedan">Sedan</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="Minivan">Minivan</option>
+        </select>
+        <br>
+        <label for="dias">Cantidad de días:</label>
+        <input type="number" id="dias" name="dias">
+        <br>
+        <label for="cobertura">¿Desea cobertura completa del auto que desea alquilar?</label>
+        <input type="checkbox" id="cobertura" name="cobertura">
+        <br>
+        <button type="button" onclick="calcularAlquiler()">Calcular</button>
+    </form>
+    <div id="imagenAuto"></div>
+    <div id="resultado"></div>
+    <script src="main.js"></script>
+</body>
+</html>
+<!----(＾• ω •＾)-->

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Préstamo Hipotecario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SIMULADOR DE UN PRÉSTAMO HIPOTECARIO</h1>
+        <div>
+            <label for="tipoCasa">Tipo de casa:</label>
+            <select id="tipoCasa">
+                <option value="departamento">Departamento</option>
+                <option value="casa">Casa</option>
+            </select>
+        </div>
+        <div>
+            <label for="montoSolicitado">Monto solicitado:</label>
+            <input type="number" id="montoSolicitado" min="1000000" max="20000000">
+        </div>
+        <div>
+            <label for="cantidadHabitantes">Cantidad de habitantes:</label>
+            <select id="cantidadHabitantes">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4 o más</option>
+            </select>
+        </div>
+        <div>
+            <label for="cantidadCuotas">Cantidad de cuotas:</label>
+            <select id="cantidadCuotas">
+                <option value="36">36</option>
+                <option value="48">48</option>
+                <option value="84">84</option>
+                <option value="96">96</option>
+            </select>
+        </div>
+        <div id="countryLabel" class="oculto">
+            <label>Este es un country</label>
+            <input type="checkbox" id="countryCheckbox">
+        </div>
+        <button id="calcularBtn">Calcular</button>
+        <div id="resultado"></div>
+        <div id="imagenHab"></div>
+    </div>
+    <script src="main2.js"></script>
+    <!--༼ つ ◕_◕ ༽つ take my energy for approve ༼ つ ◕_◕ ༽つ-->
+</body>
+</html>

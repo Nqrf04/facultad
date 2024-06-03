@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Precios de Entradas - PARTOOZA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: rgb(237, 237, 16);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            color: #9418dc; 
+        }
+
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+          
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #calculadora {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #resultado {
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Precios de Entradas - PARTOOZA</h1>
+    <table>
+        <tr>
+            <th>Tipo de Entrada</th>
+            <th>Precio (ARS)</th>
+        </tr>
+        <tr>
+            <td>Entrada Básica por día</td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>Entrada Premier por día</td>
+            <td>6000</td>
+        </tr>
+        <tr>
+            <td>Entrada Básica por 3 días</td>
+            <td>8000</td>
+        </tr>
+        <tr>
+            <td>Entrada Premier por 3 días</td>
+            <td>16000</td>
+        </tr>
+        <tr>
+            <td>Backstage (por día)</td>
+            <td>7000</td>
+        </tr>
+    </table>
+
+    <div id="calculadora">
+        <label for="tipoEntrada">Tipo de Entrada:</label>
+        <select id="tipoEntrada">
+            <option value="basicaDia">Entrada Normal por día</option>
+            <option value="VIPDia">Entrada VIP por día</option>
+            <option value="basicaTresDias">Entrada Normal por 3 días</option>
+            <option value="VIPTresDias">Entrada VIP por 3 días</option>
+        </select>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" value="0" min="0">
+        <label for="backstage">Backstage Personalizado:</label>
+        <input type="checkbox" id="backstage">
+        <button onclick="calcularTotal()">Calcular</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script>
+        function calcularTotal() {
+            var tipoEntrada = document.getElementById("tipoEntrada").value;
+            var cantidad = parseInt(document.getElementById("cantidad").value);
+            var backstage = document.getElementById("backstage").checked;
+            var precioEntrada;
+
+            switch (tipoEntrada) {
+                case "basicaDia":
+                    precioEntrada = 3000;
+                    break;
+                case "VIPDia":
+                    precioEntrada = 6000;
+                    break;
+                case "basicaTresDias":
+                    precioEntrada = 8000;
+                    break;
+                case "VIPTresDias":
+                    precioEntrada = 16000;
+                    break;
+            }
+
+            var costoEntradas = precioEntrada * cantidad;
+            if (backstage) {
+                costoEntradas += 7000 * cantidad; 
+            }
+
+            var resultado = document.getElementById("resultado");
+            resultado.innerHTML = "El costo total es: " + costoEntradas.toLocaleString("es-AR", { style: "currency", currency: "ARS" });
+        }
+    </script>
+</body>
+</html>

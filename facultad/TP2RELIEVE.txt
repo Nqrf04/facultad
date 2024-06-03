@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Relieves de Argentina</title>
+	<style>
+		
+		h1 {
+			color: #336699; 
+			font-size: 24px; 
+		}
+
+		table {
+			border-collapse: collapse; 
+			width: 80%; 
+			margin: 20px auto; 
+		}
+
+		th, td {
+			border: 2px solid #336699; 
+			padding: 10px; 
+			text-align: center; 
+		}
+
+		th {
+			background-color: #f2f2f2; 
+		}
+	</style>
+</head>
+<body>
+	<div align="center">		
+		<h1>Tablas de relieves de Argentina</h1>
+		<div class="Tablas">	
+		</div>
+
+		<table border="5">	
+			<thead>
+				<tr>
+					<th>Caracteristicas</th>	
+					<th>Nombre del relieve</th>	
+					<th>Imagen</th>
+					<th>Video ilustrativo</th>
+				</tr>
+			</thead>
+			<tr>
+<td >El relieve que predomina en este espacio es el llano, junto a él, el clima templado húmedo; favorecen el asentamiento de la población y de las actividades económicas más importantes del país.
+<br>
+Situada al sur del Chaco, con sus máximas alturas hacia el oeste.
+<br>
+Los suelos negros que se desarrollan en amplias zonas de la llanura son ricos en materia orgánica, muy fértiles y por lo tanto han posibilitado el desarrollo de las actividades agropecuarias.</td>
+<td><div align="center"><b>LLanura pampeana</b></div></td>
+<td><div align="center"><img src="https://th.bing.com/th/id/OIP.yeEr3KUSXLspO3iC2_0aBgHaFj?pid=ImgDet&rs=1" width="300px" height="300px"></div></td>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/ilO8-0t9kdI?si=GBGCxZwZp8wb0RkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+</tr>
+<tr>
+<td >martineta de cresta (Eudromia elegans)</td>
+<td>Oviparos</td>
+<td><div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Stavenn_Eudromia_elegans_00.jpg" width="200px" height="200px"></div></td>	
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/bVBWU8983bI?si=d85E0y03kEWUFGxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+</tr>
+<tr><td >Ñandú (Rhea americana)</td>
+	<td><br></td>
+<td><div align="center"><img src="https://th.bing.com/th/id/OIP.PECnhcfkaHMuviByXv2sjAHaFJ?pid=ImgDet&rs=1" width="200px" height="200px"></div></td>
+<td><br></td>
+</tr>
+
+<th>Caracteristicas</th>	
+<th>Nombre del relieve</th>	
+<th>Imagen</th>
+<th>Video ilustrativo</th>
+</tr>
+<tr>
+<td >Las mesetas de Argentina están al noroeste,<br> donde se encuentra la Meseta Misionera que se inclinan hacia los ríos Paraná y Uruguay, divididos por la Sierra de Misiones.<br> Esta zona es frecuentada para la extracción de rocas para la industria de construcción.<br> Aquí también se encuentran la Sierra Victoria al norte y la Sierra del Imán al sur.</td>	
+<td><div align="center"><b>Meseta</b> </div></td>
+<td><div align="center"><img src="https://cdn0.ecologiaverde.com/es/posts/1/9/0/mesetas_4091_1_600.webp" width="300px" height="300px"> </div></td>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/Z55kkmK5Zr4" title="Paisajes de mesetas de Argentina Prof. en Geografía Giménez Sofia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</tr>
+<tr>
+<td >Pudúes(Cervidae, tipo de ciervo)</td>
+<td >Mamiferos</td>
+<td><div align="center"><img src="https://prensa.cba.gov.ar/wp-content/uploads/2020/06/nature-animal-wilderness-head-53001.jpg" width="200px" height="200px"></div></td>	
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/oNxv9wU0YUs?si=BYHNuy7srgOPTomj&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+</tr>
+<tr><td >Puma</td>
+	<td><br></td>
+<td><div align="center"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2WXC5VEFCZARLG2XIDOVD6I37U.jpg" width="200px" height="200px"></div></td>
+<td><br></td>
+</tr>
+</table>
+	 </div>
+
+
+</body>
+</html>
