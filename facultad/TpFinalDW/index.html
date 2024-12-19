@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tragos</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- biblioteca creador archivos pdf en el navegador-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <!--plugin facilita creacion de tablas en PDF-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.13/jspdf.plugin.autotable.min.js"></script>
+</head>
+
+<body>
+    <header>        
+        <img src="./assets/logo.png" alt="logo" class="logo">
+        <h1>Deja que el destino eliga tu trago!</h1>
+    </header>
+
+    <main>
+        <form id="apiForm">
+            <label for="apiUrl">Ingresa la URL de la API:</label>
+            <input type="text" id="apiUrl"
+                placeholder="Ejemplo: https://www.thecocktaildb.com/api/json/v1/1/random.php" />
+            <button type="submit">Buscar Lista</button>
+        </form>
+
+        <button id="randomButton">Obten tu trago</button>
+        <button id="descargarTabla">Descargar Tabla</button>
+
+        <div id="result"></div>
+        <section id="tablaTragos">
+            <h2>Historial de tragos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Imagen</th>
+                        <th>Ingredientes</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Castellano Francisco</p>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>

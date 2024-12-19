@@ -1,0 +1,13 @@
+
+Aquí tienes el texto mejorado, con correcciones léxicas, gramaticales y de puntuación:
+
+En esta guía encontrarás la estructura básica del proyecto y los conceptos fundamentales de cada archivo.
+En la primera carpeta encontramos assets, donde se incluye un archivo PNG del logo que se usó para la página web.
+En la segunda carpeta encontraremos conexionAPI, la cual contiene lo esencial: la conexión con la API utilizada y su función.
+En la tercera carpeta está docs, que incluye el archivo que estamos leyendo actualmente y que funciona como guía.
+
+Luego, encontraremos los archivos esenciales y principales. A continuación, se dará un breve detalle de cada uno:
+
+estilos.css: Define el estilo que se muestra en la página principal para darle un poco más de "vida" a la misma.
+index.html: Contiene toda la estructura básica del proyecto, donde destacan principalmente la tabla (table) y el botón aleatorio (random button).
+main.js: Incluye todas las funciones necesarias para que tanto la URL solicitada como el botón aleatorio tengan un funcionamiento correcto.
